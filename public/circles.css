@@ -7,4 +7,24 @@ canvas {
 body, html {
   margin: 0;
   height: 100%;
+  background: black;
+  box-sizing: border-box;
+}
+
+.text-wrap{
+  text-align: center;
+  padding: 10px;
+}
+#text {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+    #text {
+      background-color: #f8f8f8;
+      width: 80%;
+      display: inline-block;
+      margin: 0 auto;
+      outline: none;
+    }
 }
