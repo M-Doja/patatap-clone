@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="/circles.css">
   </head>
   <body>
-    <div class="text-wrap">
-      <input type="text" id="text" placeholder="Use Keyboard Here To Play Sounds">
+    <div class="text-center">
+      <h1 style="color:grey">Patatap Clone</h1>
+      <p style="color:grey">type on keyboard for sounds</p>
+      <!-- <input type="text" id="text" placeholder="Use Keyboard Here To Play Sounds"> -->
     </div>
     <canvas id="myCanvas" resize></canvas>
 
@@ -174,6 +176,15 @@
         })
       }
     };
+    // document.getElementById('text').addEventListener('onchange', function(){
+    //   for (var p in keyData){
+    //     if (document.getElementById('text').value === p) {
+    //       console.log('input is: '+p);
+    //     }else {
+    //       console.log('Err');
+    //     }
+    //   }
+    // })
 
       var circles = [];
     	function onKeyDown(e){
